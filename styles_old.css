@@ -1,0 +1,51 @@
+.block .editorinfoblock {
+    overflow: hidden;
+}
+.block .editorinfoblock .desc {
+    border-bottom: 1px solid #CCCCCC;
+    font-weight: bold;
+    padding: 3px 0;
+    text-align: center;
+}
+.block .editorinfoblock .editorinfo {
+    border-bottom: 1px solid #CCCCCC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 94%;
+}
+.block .editorinfoblock .editorinfo.last {
+    border:0px none;
+}
+.block .editorinfoblock .picture {
+    overflow: hidden;
+}
+.block .editorinfoblock .fullname {
+    font-size:1.5em; 
+    font-weight: bold;
+    font-size: 130% !important;    
+    margin-bottom: 4px;
+}
+.block .editorinfoblock .email, .block .editorinfoblock .phone, .block .editorinfoblock .lastaccess {
+    text-align: left;
+    margin-bottom: 4px;
+}
+.block .editorinfoblock .email img, .block .editorinfoblock .phone img {
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+.block .editorinfoblock .phone span {
+    margin-left: 5px;
+}
+.block .editorinfoblock strong {
+    margin-right: 5px;
+}
+.block .editorinfoblock  span {
+
+}
+.block .editorinfoblock .lastaccess span {
+    font-style: italic;
+    color: #666;
+}

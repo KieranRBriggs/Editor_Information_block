@@ -1,0 +1,74 @@
+.block .editorinfo {
+    overflow: hidden;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+
+.block .editorinfo h3 {
+	text-align: left;
+	font-weight: bold;
+}
+
+.block .editorinfo .desc {
+    border-bottom: 1px solid #CCCCCC;
+    font-weight: bold;
+    padding: 3px 0;
+    text-align: center;
+}
+.block .editorinfo .tutorinfo {
+    border-bottom: 1px solid #CCCCCC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 94%;
+}
+.block .editorinfo .tutorinfo.last {
+    border:0px none;
+}
+.block .editorinfo .profilepicture {
+    overflow: hidden;
+    float:none;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+.block .editorinfo .fullname {
+    font-size:1.1em; 
+    font-weight: bold;
+    margin:5px 0px;
+
+}
+.block .editorinfo .fullname img{
+    padding-right:5px;
+
+}
+.block .tutorinfo .online {
+	width:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.block .editorinfo .email, .block .editorinfo .phone, .block .editorinfo .lastaccess {
+    text-align: left;
+    margin-bottom: 4px;
+}
+.block .editorinfo .email img, .block .editorinfo .phone img {
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+.block .editorinfo .phone span {
+    margin-left: 5px;
+}
+.block .editorinfo strong {
+    margin-right: 5px;
+}
+.block .editorinfo  span {
+
+}
+.block .editorinfo .lastaccess span {
+    font-style: italic;
+    color: #666;
+}
