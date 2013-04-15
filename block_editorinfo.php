@@ -220,7 +220,7 @@ class block_editorinfo extends block_base
      */
     public function applicable_formats()
     {
-        return array('all' => true, 'mod' => true, 'tag' => true);
+        return array('course' => true, 'mod' => true);
     }
 
     /**
