@@ -1,20 +1,12 @@
 <?php
 
-/**
- *
- * @package    block
- * @subpackage editorinfo
- * @copyright  2011 Mohamed Alsharaf
- * @author     Mohamed Alsharaf <mohamed.alsharaf@gmail.com>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
 defined('MOODLE_INTERNAL') || die();
 
 /**
  * Displays user(s) profile information.
  *
- * @copyright  2011 Mohamed Alsharaf
- * @author     Mohamed Alsharaf <mohamed.alsharaf@gmail.com>
+ * @copyright  2014 Kieran Briggs
+ * @author     Kieran Briggs <kieran.briggs@sheffcol.ac.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class block_editorinfo extends block_base
