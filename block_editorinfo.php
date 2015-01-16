@@ -101,7 +101,7 @@ class block_editorinfo extends block_base
         if ($this->can_display('name', $key)) {
             $output .= '<div class="fullname">';
             if ($this->can_display('email', $key)) {
-            	$output .= '<a href="mailto:' . $user->email .'><img src="' . $CFG->wwwroot . '/blocks/editorinfo/assets/mail.png" alt="' . $this->helper->get_string('emailme') . '" title="' . $this->helper->get_string('emailme') . '"/>' . fullname($user) . '</a>';
+            	$output .= '<i class="fa fa-envelope-o"></i> <a href="mailto:' . $user->email .'><img src="' . $CFG->wwwroot . '/blocks/editorinfo/assets/mail.png" alt="' . $this->helper->get_string('emailme') . '" title="' . $this->helper->get_string('emailme') . '"/>' . fullname($user) . '</a>';
             } else {
 	            $output .= fullname($user);
             }
